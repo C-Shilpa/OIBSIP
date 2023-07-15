@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calci.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <center>
+            <form name="frm">
+            <input id="a1" type="text" name="answer"><br/>
+            <input type="button" value="(" onclick="document.frm.answer.value+='(';">
+            <input type="button" value=")" onclick="document.frm.answer.value+=')';">
+            <input type="button" value="C" onclick="document.frm.answer.value='';">
+            <input type="button" value= " &#9003; " onclick="document.frm.answer.value=document.frm.answer.value.slice(0,-1);">
+            <input type="button" value="&divide" onclick="document.frm.answer.value+='/';"><br/>
+            <input type="button" value="&radic;" onclick="SquareRoot();">
+            <input class = "num" type="button" value="7" onclick="document.frm.answer.value+='7';">
+            <input class = "num" type="button" value="8" onclick="document.frm.answer.value+='8';">
+            <input class = "num" type="button" value="9" onclick="document.frm.answer.value+='9';">
+            <input type="button" value="&times" onclick="document.frm.answer.value+='*';"><br/>
+            <input type="button"  value="x&sup2;"  onclick="square();">
+            <input class = "num" type="button" value="4" onclick="document.frm.answer.value+='4';">
+            <input class = "num" type="button" value="5" onclick="document.frm.answer.value+='5';">
+            <input class = "num" type="button" value="6" onclick="document.frm.answer.value+='6';">
+            <input type="button" value="-" onclick="document.frm.answer.value+='-';"><br/>
+            <input type="button" value="x&sup3" onclick="calculateCube();">
+            <input class = "num" type="button" value="1" onclick="document.frm.answer.value+='1';">
+            <input class = "num" type="button" value="2" onclick="document.frm.answer.value+='2';">
+            <input class = "num" type="button" value="3" onclick="document.frm.answer.value+='3';">
+            <input type="button" value="+" onclick="document.frm.answer.value+='+';"><br/>
+            <input type="button" value="!" onclick= "factorial();">
+            <input type="button" value="log" onclick="log();">
+            <input type="button" value="0" onclick="document.frm.answer.value+='0';">
+            <input type="button" value="." onclick="document.frm.answer.value+='.';">
+            <input id="a2" type="button" value="=" onclick="document.frm.answer.value = eval(document.frm.answer.value);"> 
+            </form>
+        </center>
+
+        <script src="calculator.js"></script>
+
+
+            
+    </body>
+</html>

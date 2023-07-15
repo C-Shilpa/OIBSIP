@@ -1,0 +1,123 @@
+body{
+    background-color:rgb(247, 227, 253);
+    
+}
+
+.innerDIv{
+    width:50%;
+    height:300px;
+    border:3px solid black;
+    margin-left:25%;
+    float:left;
+}
+
+.imgDiv{
+    float:left;
+    margin-left:20px;
+}
+
+.name{
+    background-color: brown;
+    color:whitesmoke;
+    margin-top:0px;
+}
+
+h2{
+    margin-top:10px;
+    color:rgb(195, 3, 169);
+    font-weight: bolder;
+}
+
+.form1{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    float:left;
+    margin-left:30px;
+    padding-left:0px;
+}
+
+.key{
+    float:left;
+    width:120px;
+    height:200px;
+    font-weight: bold;
+}
+
+.value{
+    float:left;
+}
+
+.b2{
+    width:300px;
+    height:200px;
+    margin-left:50px;
+    border:3px solid black;
+    float:left; 
+}
+
+.intro{
+    float:left;
+    margin-left:20px;
+    width:95%;
+    text-align: justify;
+    font-size:large;
+}
+
+.earlylife,.personalLife,.education,.philanthropicWork,.books,.awards{
+    width:45%;
+    background-color: rgb(200, 251, 251);
+    border:3px solid rgb(67, 197, 253);
+    float:left;
+    margin:20px;
+    text-align:justify;
+    padding:0px 10px 15px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.books,.awards{
+    width:95%;
+}
+
+.parentsPic{
+    float:left;
+    margin:0px 20px 10px 0px;
+}
+
+.familyPic{
+    float:left;
+    margin:0px 20px 10px 0px;
+}
+
+.award{
+    width:47%;
+    float:left;
+    margin:10px 15px;
+    padding:10px 0px;
+    background-color: rgb(99, 252, 134);
+}
+
+footer{
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:orange;
+}
+
+footer{
+    font-size: larger;
+    margin-left:20%;
+}
+
+.link{
+    text-decoration: underline;
+}

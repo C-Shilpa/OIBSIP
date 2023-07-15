@@ -1,0 +1,61 @@
+form{
+    width : 500px;
+    height: 500px;    
+    border-top:20px groove violet;
+    border-left:20px groove violet;
+    border-right:20px ridge violet;
+    border-bottom:20px ridge violet;
+    background-color:lightgrey;
+    border-radius:15px;
+    margin-top: 7%;
+    padding-right:10px;
+
+}
+
+input{
+    border :2px solid blueviolet;
+    border-radius:10px;
+    background-color:rgb(220, 249, 164);
+    width:75px;
+    height:70px;
+    margin-top:10px;
+    margin-left:10px;
+    font-size:larger;
+}
+
+.num{
+    background-color:rgb(250, 187, 226);
+}
+
+#a1{
+    width:425px;
+    margin-top:10px;
+    text-align :center;
+    background-color: rgb(171, 231, 244);
+    color:rgb(253, 77, 7);
+}
+
+#a2{
+    background-color: aqua;
+}
+
+input:hover{
+    background-color:rgb(203, 252, 106);
+    color: rgb(251, 47, 173);
+    font-size:large;
+}
+
+input:active{
+    background-color: lime;
+    border :4px solid blueviolet;
+}
+
+#a2:hover{
+    background-color: rgb(250, 148, 233);
+    color:rgb(130, 4, 255);
+}
+
+#a2:active{
+    background-color: rgb(163, 251, 10);
+    color:rgb(249, 7, 208);
+}
